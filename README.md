@@ -14,7 +14,7 @@ https://github.com/hahmadi82/iOS-CardList-TableView/blob/master/CardList%20Templ
 
 Many popular apps use this card-style interface. 
 
-Get Started
+Easy Set-Up
 ===========
 All you need to do is tweak the list of attributes (in CardListController.m) and, voila, you have a card-style list:
 
