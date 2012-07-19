@@ -34,12 +34,13 @@ the UITableView (turned on and off by the HEADER_ON constant).
 
 Things to Consider
 ==================
-1) After tweaking your attributes, you can create your card content in the addContent method located in CardListCell.m.
-A placeholder title is already added
+1) After formatting the cards, you can create your content in the addContent method of CardListCell.m.
+A card title example is included.
 
-2) You can add content to the header area in the viewDidLoad method of CardListController.m.
-A placeholder title is already added.
+2) If utilizing the header area, you can add content to the viewDidLoad method of CardListController.m.
+A header title example is included.
 
 3) The floating effect of the cards is helped by the background image displayed in the didFinishLaunchingWithOptions
 method located in CardListAppDelegate.m. It's important to add a background image to the subview of the class displaying
-the CardListController. This does not need to be done in the app delegate. An example image is included in the template.
+the CardListController. This does not need to be done in the app delegate.
+A placeholder background is included in the template.
