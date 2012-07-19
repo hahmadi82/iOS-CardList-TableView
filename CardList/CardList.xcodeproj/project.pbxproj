@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E215F9D015B7CC3400A6B8A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215F9CF15B7CC3400A6B8A9 /* UIKit.framework */; };
+		E215F9D215B7CC3400A6B8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215F9D115B7CC3400A6B8A9 /* Foundation.framework */; };
+		E215F9D415B7CC3400A6B8A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215F9D315B7CC3400A6B8A9 /* CoreGraphics.framework */; };
+		E215F9DA15B7CC3400A6B8A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E215F9D815B7CC3400A6B8A9 /* InfoPlist.strings */; };
+		E215F9DC15B7CC3400A6B8A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E215F9DB15B7CC3400A6B8A9 /* main.m */; };
+		E215F9E015B7CC3400A6B8A9 /* CardListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E215F9DF15B7CC3400A6B8A9 /* CardListAppDelegate.m */; };
+		E215F9EF15B7CE5C00A6B8A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E215F9EE15B7CE5C00A6B8A9 /* QuartzCore.framework */; };
+		E215F9F115B7CF6600A6B8A9 /* CardListController.m in Sources */ = {isa = PBXBuildFile; fileRef = E215F9ED15B7CD0500A6B8A9 /* CardListController.m */; };
+		E215F9F215B7CF6B00A6B8A9 /* CardListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E215F9EB15B7CD0500A6B8A9 /* CardListCell.m */; };
+		E215F9FD15B7D2AB00A6B8A9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E215F9FB15B7D2AB00A6B8A9 /* background.png */; };
+		E215F9FE15B7D2AB00A6B8A9 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E215F9FC15B7D2AB00A6B8A9 /* background@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E215F9CB15B7CC3400A6B8A9 /* CardList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E215F9CF15B7CC3400A6B8A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E215F9D115B7CC3400A6B8A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E215F9D315B7CC3400A6B8A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E215F9D715B7CC3400A6B8A9 /* CardList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardList-Info.plist"; sourceTree = "<group>"; };
+		E215F9D915B7CC3400A6B8A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E215F9DB15B7CC3400A6B8A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E215F9DD15B7CC3400A6B8A9 /* CardList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardList-Prefix.pch"; sourceTree = "<group>"; };
+		E215F9DE15B7CC3400A6B8A9 /* CardListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardListAppDelegate.h; sourceTree = "<group>"; };
+		E215F9DF15B7CC3400A6B8A9 /* CardListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardListAppDelegate.m; sourceTree = "<group>"; };
+		E215F9EA15B7CD0500A6B8A9 /* CardListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardListCell.h; sourceTree = "<group>"; };
+		E215F9EB15B7CD0500A6B8A9 /* CardListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardListCell.m; sourceTree = "<group>"; };
+		E215F9EC15B7CD0500A6B8A9 /* CardListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardListController.h; sourceTree = "<group>"; };
+		E215F9ED15B7CD0500A6B8A9 /* CardListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardListController.m; sourceTree = "<group>"; };
+		E215F9EE15B7CE5C00A6B8A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E215F9FB15B7D2AB00A6B8A9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		E215F9FC15B7D2AB00A6B8A9 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E215F9C815B7CC3400A6B8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E215F9EF15B7CE5C00A6B8A9 /* QuartzCore.framework in Frameworks */,
+				E215F9D015B7CC3400A6B8A9 /* UIKit.framework in Frameworks */,
+				E215F9D215B7CC3400A6B8A9 /* Foundation.framework in Frameworks */,
+				E215F9D415B7CC3400A6B8A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E215F9C015B7CC3400A6B8A9 = {
+			isa = PBXGroup;
+			children = (
+				E215F9EE15B7CE5C00A6B8A9 /* QuartzCore.framework */,
+				E215F9D515B7CC3400A6B8A9 /* CardList */,
+				E215F9CE15B7CC3400A6B8A9 /* Frameworks */,
+				E215F9CC15B7CC3400A6B8A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E215F9CC15B7CC3400A6B8A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E215F9CB15B7CC3400A6B8A9 /* CardList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E215F9CE15B7CC3400A6B8A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E215F9CF15B7CC3400A6B8A9 /* UIKit.framework */,
+				E215F9D115B7CC3400A6B8A9 /* Foundation.framework */,
+				E215F9D315B7CC3400A6B8A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E215F9D515B7CC3400A6B8A9 /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				E215F9DE15B7CC3400A6B8A9 /* CardListAppDelegate.h */,
+				E215F9DF15B7CC3400A6B8A9 /* CardListAppDelegate.m */,
+				E215F9EA15B7CD0500A6B8A9 /* CardListCell.h */,
+				E215F9EB15B7CD0500A6B8A9 /* CardListCell.m */,
+				E215F9EC15B7CD0500A6B8A9 /* CardListController.h */,
+				E215F9ED15B7CD0500A6B8A9 /* CardListController.m */,
+				E215F9D615B7CC3400A6B8A9 /* Supporting Files */,
+			);
+			path = CardList;
+			sourceTree = "<group>";
+		};
+		E215F9D615B7CC3400A6B8A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E215F9FB15B7D2AB00A6B8A9 /* background.png */,
+				E215F9FC15B7D2AB00A6B8A9 /* background@2x.png */,
+				E215F9D715B7CC3400A6B8A9 /* CardList-Info.plist */,
+				E215F9D815B7CC3400A6B8A9 /* InfoPlist.strings */,
+				E215F9DB15B7CC3400A6B8A9 /* main.m */,
+				E215F9DD15B7CC3400A6B8A9 /* CardList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E215F9CA15B7CC3400A6B8A9 /* CardList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E215F9E315B7CC3400A6B8A9 /* Build configuration list for PBXNativeTarget "CardList" */;
+			buildPhases = (
+				E215F9C715B7CC3400A6B8A9 /* Sources */,
+				E215F9C815B7CC3400A6B8A9 /* Frameworks */,
+				E215F9C915B7CC3400A6B8A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardList;
+			productName = CardList;
+			productReference = E215F9CB15B7CC3400A6B8A9 /* CardList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E215F9C215B7CC3400A6B8A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CardList;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E215F9C515B7CC3400A6B8A9 /* Build configuration list for PBXProject "CardList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E215F9C015B7CC3400A6B8A9;
+			productRefGroup = E215F9CC15B7CC3400A6B8A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E215F9CA15B7CC3400A6B8A9 /* CardList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E215F9C915B7CC3400A6B8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E215F9DA15B7CC3400A6B8A9 /* InfoPlist.strings in Resources */,
+				E215F9FD15B7D2AB00A6B8A9 /* background.png in Resources */,
+				E215F9FE15B7D2AB00A6B8A9 /* background@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E215F9C715B7CC3400A6B8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E215F9F215B7CF6B00A6B8A9 /* CardListCell.m in Sources */,
+				E215F9F115B7CF6600A6B8A9 /* CardListController.m in Sources */,
+				E215F9DC15B7CC3400A6B8A9 /* main.m in Sources */,
+				E215F9E015B7CC3400A6B8A9 /* CardListAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E215F9D815B7CC3400A6B8A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E215F9D915B7CC3400A6B8A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E215F9E115B7CC3400A6B8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E215F9E215B7CC3400A6B8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E215F9E415B7CC3400A6B8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardList/CardList-Prefix.pch";
+				INFOPLIST_FILE = "CardList/CardList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E215F9E515B7CC3400A6B8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardList/CardList-Prefix.pch";
+				INFOPLIST_FILE = "CardList/CardList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E215F9C515B7CC3400A6B8A9 /* Build configuration list for PBXProject "CardList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E215F9E115B7CC3400A6B8A9 /* Debug */,
+				E215F9E215B7CC3400A6B8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E215F9E315B7CC3400A6B8A9 /* Build configuration list for PBXNativeTarget "CardList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E215F9E415B7CC3400A6B8A9 /* Debug */,
+				E215F9E515B7CC3400A6B8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E215F9C215B7CC3400A6B8A9 /* Project object */;
+}
