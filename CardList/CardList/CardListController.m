@@ -1,9 +1,14 @@
+//
+//  CardListController.m
+//  ARC enabled
+//  Created by Hooman Ahmadi on 7/18/12.
+
 #import "CardListController.h"
 #import "CardListCell.h"
 
 /****************************************************************************************************************
  Define the attributes of the card and the header section. You can toggle the header section on and off with the
- HEADER_ON flag. CARD_WIDTH should not be greater than 300.
+ HEADER_ON flag. CARD_WIDTH should not be greater than 300. For square corners, set CORNER_RADIUS to zero.
 ****************************************************************************************************************/
 #define CARD_SEPARATOR 30.0
 #define CARD_HEIGHT 115.0

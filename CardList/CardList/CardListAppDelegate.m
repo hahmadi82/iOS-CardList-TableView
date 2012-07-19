@@ -1,4 +1,7 @@
-
+//
+//  CardListAppDelegate.m
+//  ARC enabled
+//  Created by Hooman Ahmadi on 7/18/12.
 
 #import "CardListAppDelegate.h"
 #import "CardListController.h"

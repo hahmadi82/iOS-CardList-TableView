@@ -1,3 +1,8 @@
+//
+//  CardListCell.m
+//  ARC enabled
+//  Created by Hooman Ahmadi on 7/18/12.
+
 #import "CardListCell.h"
 #import <QuartzCore/QuartzCore.h>
 
