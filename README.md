@@ -40,7 +40,7 @@ A card title example is included.
 2) If utilizing the header area, you can add header content to the viewDidLoad method of CardListController.m.
 A header title example is included.
 
-3) The floating effect of the cards is helped by the background image displayed in the didFinishLaunchingWithOptions
+3) The floating effect of the cards is aided by the static background image displayed in the didFinishLaunchingWithOptions
 method located in CardListAppDelegate.m. It's important to add a background image to the subview of the class displaying
 the CardListController. This does not need to be done in the app delegate.
 A placeholder background is included in the template.
