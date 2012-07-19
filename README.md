@@ -1,7 +1,7 @@
 iOS-CardList-TableView
 ======================
 
-Objective-C template that allows customizing a UITableView to display a list of card-style cells, along with a
+An Objective-C template that allows customizing a UITableView to display a list of card-style cells, along with a
 header area at the top.
 
 When I was learning Objective-C, I found it difficult to customize a UITableView to have a slicker,
@@ -34,13 +34,18 @@ the UITableView (turned on and off by the HEADER_ON constant).
 
 Things to Consider
 ==================
-1) After formatting the cards, you can create your content in the addContent method of CardListCell.m.
+1) After formatting the cards, you can create your card content in the addContent method of CardListCell.m.
 A card title example is included.
 
-2) If utilizing the header area, you can add content to the viewDidLoad method of CardListController.m.
+2) If utilizing the header area, you can add header content to the viewDidLoad method of CardListController.m.
 A header title example is included.
 
 3) The floating effect of the cards is helped by the background image displayed in the didFinishLaunchingWithOptions
 method located in CardListAppDelegate.m. It's important to add a background image to the subview of the class displaying
 the CardListController. This does not need to be done in the app delegate.
 A placeholder background is included in the template.
+
+4) Feel free to customize any aspect of this template to suit your needs. The comments should help you understand
+how everything works, if you wish for deeper customization.
+
+Enjoy!
